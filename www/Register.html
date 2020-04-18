@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Page 📄 </title>
+  <link rel="stylesheet" href="register.css">
+  <center>
+    <p>
+      <h1><b>Create a New account </h1>
+      <h3>It's Quick and easy.</h3></b>
+      Please fill in this form to create an account.
+    </p>
+  </center>
+
+</head>
+
+<body>
+  <div>
+    <center>
+      <form>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" placeholder="First Name" required>
+        <br><br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" placeholder="Last Name" required>
+        <br><br>
+        <label for="DOB">Date Of Birth:</label>
+        <input type="text" id="DOB" placeholder="dd/mm/yyyy" required>
+        <br><br>
+        <label for="gender">Gender : </label> &nbsp&nbsp&nbsp
+        <input type="radio" id="male" name="gender">Male &nbsp&nbsp&nbsp&nbsp
+        <input type="radio" id="female" name="gender">Female
+        <br><br>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+        <br><br>
+        <label for="psw"><b> Password :</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <br><br>
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+        <button type="submit" class="registerbtn">Register</button>
+        <br>
+
+
+
+        <div class="container signin">
+          <p>Already have an account? <a href="LoginPage.html">Sign in</a>.</p>
+        </div>
+      </form>
+
+    </center>
+    <div id="percent-loaded" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    </div>
+  </div>
+  <script href="register.js
+  "></script>
+
+</body>
+
+</html>
