@@ -16,7 +16,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "lite-server": "^2.5.4",
-    "minimist": "^1.2.3",
+    "minimist": "^1.2.6",
     "nodemon": "^2.0.2"
   }
 }
